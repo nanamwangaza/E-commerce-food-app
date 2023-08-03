@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+import 'package:food_app/utils/dimensions.dart';
+import 'package:food_app/widgets/small_text.dart';
+
+class IconAndTextWidget extends StatelessWidget {
+  final IconData icon;
+  // can't initialize icon as Icon, but as IconData
+  final String text;
+ 
+  final Color iconColor;
+  const IconAndTextWidget({
+    super.key,
+     required this.icon, 
+     required this.text,
+     
+      required this.iconColor
+      });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Icon(icon, color: iconColor,size: Dimensions.iconSize24,),
+        SizedBox(width:5,),
+        SmallText(text: text)
+      ],
+    );
+  }
+}
