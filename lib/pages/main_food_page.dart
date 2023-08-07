@@ -19,6 +19,8 @@ class _MainFoodPageState extends State<MainFoodPage> {
     return Scaffold(
       body: Column(
         children: [
+
+          // Header
           Container(
 
 
@@ -56,7 +58,8 @@ class _MainFoodPageState extends State<MainFoodPage> {
             ),
           ),
 
-          FoodPageBody()
+          FoodPageBody(),
+              // Expanded   expands a child widget to fill all available space along the main axis within its parent widget
         ],
       ),
     );
