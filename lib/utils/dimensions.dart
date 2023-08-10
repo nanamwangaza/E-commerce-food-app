@@ -14,6 +14,7 @@ class Dimensions {
       screenHeight / 6.84; //u get 120, which is the hardcoded value
 
 // Dynamic height padding and margin
+ static double  lineHeight = screenHeight / 456.11;
   static double height10 = screenHeight / 82.1;
   static double height20 = screenHeight / 41.05;
   static double height15 = screenHeight / 54.73;
@@ -32,9 +33,10 @@ class Dimensions {
   static double width30 = screenHeight / 27.37;
 
   // fonts and radius
+  static double font16=screenHeight/51.31;
   static double font20 = screenHeight / 41.05;
   static double font26 = screenHeight / 31.58;
-   static double radius20 = screenHeight / 41.05;
+  static double radius20 = screenHeight / 41.05;
   static double radius30 = screenHeight / 27.37;
   static double radius15 = screenHeight / 54.73;
 
@@ -43,6 +45,8 @@ class Dimensions {
   static double iconSize16 = screenHeight / 51.31;
 
   // Popular food
-
   static double popularFoodImgSize = screenHeight / 2.35;
+
+  //Bottom nav height
+  static double bottomNavHeight=screenHeight/6.84;
 }

@@ -65,6 +65,9 @@ flutter:
      - assets/images/pizza.jpg
      - assets/images/fruit_meal.jpg
      - assets/images/pancakes.jpg
+     - assets/images/burger.jpg
+     - assets/images/burger2.jpg
+
 
   #   - images/a_dot_ham.jpeg
 
